@@ -29,6 +29,14 @@ public class Notification {
     @JoinColumn(name = "status_id")
     private Status status;
 
+    public Notification(LocalDateTime dateTime, String destination, String message, Channel channel, Status status) {
+        this.dateTime = dateTime;
+        this.destination = destination;
+        this.message = message;
+        this.channel = channel;
+        this.status = status;
+    }
+
     public Notification() {
     }
 }
