@@ -20,7 +20,7 @@ Este projeto é um microserviço desenvolvido com Spring Boot, focado no agendam
 
 ## Tecnologias
 
-| Cor               | Hexadecimal                                                |
+| Techs               | Descrição                                                |
 | ----------------- | ---------------------------------------------------------------- |
 | 📜 Java       | Linguagem principal para desenvolvimento |
 | 🍃 Spring Boot     | Framework para construção do microserviço |
