@@ -26,9 +26,9 @@ public class Status {
 
     public enum Values {
         PENDING(1L, "pending"),
-        SUCCESS(1L, "success"),
-        ERROR(1L, "error"),
-        CANCELLED(1L, "cancelled");
+        SUCCESS(2L, "success"),
+        ERROR(3L, "error"),
+        CANCELLED(4L, "cancelled");
 
         private Long id;
         private String description;

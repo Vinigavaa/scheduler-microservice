@@ -39,4 +39,7 @@ public class Notification {
 
     public Notification() {
     }
+
+    public void setStatus(Status status) {
+    }
 }
